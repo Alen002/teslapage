@@ -33,3 +33,12 @@
   display: flex;
   flex-direction: column;
 }
+
+
+.item-button {
+  text-align: center;
+}
+
+.expand-icon {
+  color: white;
+}

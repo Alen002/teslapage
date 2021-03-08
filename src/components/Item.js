@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from './Button';
+import Buttons from './Buttons';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import './Item.css';
 
@@ -18,14 +18,11 @@ const Item = ({title, desc, backgroundImg, leftBtnTxt, leftBtnLink, rightBtnTxt,
         </div>
         <div className="item-lowerthird">
           <div className="item-button">
-            <Button imp='primary' text={leftBtnLink} link={leftBtnLink} />
+            <Buttons imp='primary' text={leftBtnLink} link={leftBtnLink} />
+            <ExpandMoreIcon className='expand-icon'/>
           </div>
-          <ExpandMoreIcon/>
         </div>
-        
       </div>
-      
-    
     </div>
   )
 }
