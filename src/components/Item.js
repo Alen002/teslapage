@@ -20,9 +20,11 @@ const Item = ({title, desc, backgroundImg, leftBtnTxt, leftBtnLink, rightBtnTxt,
           <div className="item-button">
             <Button imp='primary' text={leftBtnLink} link={leftBtnLink} />
           </div>
+          <ExpandMoreIcon/>
         </div>
+        
       </div>
-      <ExpandMoreIcon/>
+      
     
     </div>
   )
