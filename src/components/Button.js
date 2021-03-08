@@ -1,11 +1,16 @@
 import React from 'react';
 
-const Button = () => {
+
+
+
+
+const Buttons = (props) => {
   return (
     <div className='button'>
-     This is a BUTTON 
+     
+      
     </div>
   )
 }
 
-export default Button;
+export default Buttons;
