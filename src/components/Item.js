@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from './Button';
 
 const Item = ({title, desc, backgroundImg, leftBtnTxt, leftBtnLink, rightBtnTxt, rightBtnLink, twoButtons}) => {
   return (
@@ -14,7 +15,7 @@ const Item = ({title, desc, backgroundImg, leftBtnTxt, leftBtnLink, rightBtnTxt,
         </div>
         <div className="item-lowerthird">
           <div className="item-button">
-
+            <Button />
           </div>
         </div>
       </div>
