@@ -1,0 +1,14 @@
+html,
+body {
+  height: 100vh;
+  overflow: hidden;
+}
+
+
+.app-items-container {
+  overflow: scroll;
+  height: 100vh;
+  scroll-snap-type: mandatory;
+  scroll-snap-points-y: repeat(100vh);
+  scroll-snap-type: y mandatory;
+}
